@@ -1,0 +1,15 @@
+.calculator {
+  margin: auto;
+  width: 30%;
+  height: 25rem;
+  margin-top: 130px;
+  box-shadow: 0px 10px 20px rgb(54, 54, 54);
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .calculator {
+    width: 70%;
+  }
+}

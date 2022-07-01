@@ -1,0 +1,18 @@
+.display {
+  color: white;
+  padding: 12px;
+  height: 27%;
+  font-size: xxx-large;
+  text-align: right;
+  background-color: rgba(31, 31, 31, 0.8);
+  border-radius: 5px 5px 0 0;
+  overflow: auto;
+  border: 1px solid white;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .display {
+    height: 22%;
+  }
+}

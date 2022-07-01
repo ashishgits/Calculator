@@ -1,0 +1,31 @@
+.buttonContainer {
+  height: 73%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 100%;
+  margin: auto;
+}
+
+.buttons {
+  padding: 10px;
+  font-size: x-large;
+  border: 1px solid white;
+  background-color: rgba(14, 22, 22, 0.1);
+  background-color: rgb(161, 231, 248, 0.9);
+}
+
+.buttons:hover {
+  cursor: pointer;
+}
+
+.buttons:active{
+  background-color: rgb(97, 217, 247);
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .buttonContainer {
+    height: 78%;
+  }
+}
